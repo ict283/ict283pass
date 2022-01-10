@@ -1,0 +1,300 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+.big-heading {
+  font-family: "Raleway";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.big-heading a {
+  color:white;
+}
+
+.big-heading a:hover {
+  text-decoration:none;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Raleway";
+  font-size: 1.5rem;
+}
+
+.navbar-brand img {
+  max-height: 70px;
+  margin-right: 10px;
+}
+
+.nav-item {
+  padding: 0 15px;
+}
+
+.nav-link {
+  font-size: 1rem;
+  font-family: "Montserrat";
+}
+
+/* Title Section */
+#title {
+  background-color: #9437FF;
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  max-width: 1024px;
+}
+
+/* Title Image */
+.title-image {
+  width: 40%;
+  position: absolute;
+  right: 30%;
+  margin: 1rem;
+}
+
+/* Intro/Features Section */
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.icon {
+  color: #9437FF;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #9437FF;
+}
+
+.intro {
+  max-width: 480px;
+  text-align: left;
+  hyphens: auto;
+}
+
+/* Testimonial/Carousel Section */
+#testimonials {
+  background-color: #9437FF;
+}
+
+#testimonial-carousel {
+  margin: auto;
+  max-width: 1024px;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 65%;
+  margin: 20px;
+  border-radius: 7px;
+  box-shadow: 10px 10px 5px #000;
+}
+
+#press {
+  background-color: #f0f0f0;
+
+  margin-top: 5%;
+  margin-left: 50%;
+  margin-right: 50%;
+}
+
+.press-logo {
+  width: 50px;
+  margin: 5px 20px 10px;
+}
+
+/* Pricing/Sessions Section */
+#pricing {
+  padding: 100px;
+}
+
+.white-section .sessions {
+  margin: auto;
+  max-width: 1024px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.card {
+  box-shadow: 2px 2px 2px lightgrey;
+}
+
+.go-btn:hover {
+  text-decoration: none;
+}
+
+/* Sections */
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #f0f0f0;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 2rem 1rem;
+}
+
+/* Buttons */
+.download-button {
+  font-size: 1rem;
+  margin: 5% 3% 5% 0;
+}
+
+.btn-outline-primary {
+  color: #d44950;
+  border-color: #d44950;
+}
+
+.btn-outline-primary:hover {
+  color: #fff;
+  background-color: #d44950;
+  border-color: #d44950;
+}
+
+/* CTA/Community Section */
+.community iframe {
+  box-shadow: 10px 10px 5px #000;
+  border-radius: 7px;
+  margin-bottom: 2.5rem;
+  max-width: 450px;
+  height: 500px;
+}
+
+video {
+  max-width: 640px;
+  box-shadow: 10px 10px 5px #000;
+  border-radius: 7px;
+}
+
+/* Spotify Player */
+.spotify-player {
+  color:white;
+  background-image:url(../images/visuals/g.gif);
+}
+
+.player {
+  margin: 2rem;
+}
+
+/* Footer Section */
+footer>.container-fluid {
+  max-width: 640px;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+/* Large screen */
+@media (max-width: 1200px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+  }
+}
+
+@media (max-width: 720px) {
+  video {
+    width: 100%;
+  }
+}
+
+/* Smartphone small screens */
+@media (max-width: 500px) {
+
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+
+  #title > .container-fluid {
+    padding-top: 0rem;
+  }
+
+  .navbar {
+    padding: 0;
+  }
+
+  .nav-link {
+    font-size: 1.5em;
+  }
+
+  .big-heading {
+    font-size: 2.5rem;
+    margin: 2rem;
+  }
+
+  .section-heading {
+    font-size: 1.75rem;
+    line-height: 1.5;
+  }
+
+  #pricing {
+    padding: 20px;
+  }
+
+  .community iframe {
+    width: 100%;
+  }
+
+  /* Hide the widget bot in mobile */
+  crate {
+      display: none;
+  }
+}
+
+/* Extra-small screen, iPhone X, 6, 5 and SE */
+@media (max-width: 400px) {
+
+  .navbar-brand {
+    font-size: 1.2rem;
+  }
+
+}
